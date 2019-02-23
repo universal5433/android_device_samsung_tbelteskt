@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/trelteskt
+LOCAL_PATH := device/samsung/tbelteskt
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-	device/samsung/trelteskt/overlay	
+	device/samsung/tbelteskt/overlay	
 
 PRODUCT_PACKAGES += \
     SamsungServiceMode	

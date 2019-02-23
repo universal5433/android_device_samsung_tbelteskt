@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/trelteskt
+LOCAL_PATH := device/samsung/tbelteskt
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineage_trelteskt_defconfig
+TARGET_KERNEL_CONFIG := lineage_tbelteskt_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
@@ -30,7 +30,7 @@ BOARD_MODEM_TYPE := ss333
 BOARD_PROVIDES_LIBRIL := true
 
 # Recovery
-TARGET_OTA_ASSERT_DEVICE := trelteskt,treltelgt,treltektt
+TARGET_OTA_ASSERT_DEVICE := tbelteskt,tbeltelgt,tbeltektt
 
 # Inherit common board flags
 include device/samsung/trelte-common/BoardConfigCommon.mk

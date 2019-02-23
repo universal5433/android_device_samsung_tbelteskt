@@ -21,14 +21,14 @@
 #define DTBH_MAGIC         "DTBH"
 #define DTBH_VERSION       2
  /* taken from stock dtb.image (strings dtb.img) */
-#define DTBH_PLATFORM      "trlte"
-#define DTBH_SUBTYPE       "trlte_kor_open"
+#define DTBH_PLATFORM      "tblte"
+#define DTBH_SUBTYPE       "tblte_kor_open"
  /* Hardcoded entry
   *
   * Taken from /proc/last_kmsg after 'reboot bootloader'
   */
-#define DTBH_PLATFORM_CODE 0x00003ec3
-#define DTBH_SUBTYPE_CODE  0x3a37307e
+#define DTBH_PLATFORM_CODE 0x00003d03
+#define DTBH_SUBTYPE_CODE  0x18e45442
 
 /* DTBH_MAGIC + DTBH_VERSION + DTB counts */
 #define DT_HEADER_PHYS_SIZE 12
