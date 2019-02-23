@@ -28,7 +28,7 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 PRODUCT_NAME := rr_tbelteskt
 PRODUCT_DEVICE := tbelteskt
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-N910S
+PRODUCT_MODEL := SM-N915S
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 BUILD_FINGERPRINT := samsung/tbelteskt/tbelteskt:6.0.1/MMB29K/N915SKSU2DSA1:user/release-keys
