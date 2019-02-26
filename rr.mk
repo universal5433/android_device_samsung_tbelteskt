@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
-
+$(call inherit-product, vendor/rr/config/telephony.mk)
 # Device identifier
 PRODUCT_NAME := rr_tbelteskt
 PRODUCT_DEVICE := tbelteskt
