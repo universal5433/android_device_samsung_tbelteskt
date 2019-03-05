@@ -20,7 +20,6 @@ LOCAL_PATH := device/samsung/tbelteskt
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/samsung/trelte
 TARGET_KERNEL_CONFIG := lineage_tbelteskt_defconfig
 
 # Properties
