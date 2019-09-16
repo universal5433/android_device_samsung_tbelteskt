@@ -35,4 +35,6 @@ BUILD_FINGERPRINT := samsung/tbelteskt/tbelteskt:6.0.1/MMB29K/N915SKSU2DSA1:user
 BOARD_VENDOR := samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=tbelteskt
+    PRODUCT_NAME=tbelteskt \
+	TARGET_DEVICE=tbelteskt \
+  	PRIVATE_BUILD_DESC="tbelteskt-user 6.0.1 MMB29K N915SKSU2DSA1 release-keys"
