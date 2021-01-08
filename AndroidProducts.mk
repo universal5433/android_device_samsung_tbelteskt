@@ -14,8 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tbelteskt.mk \
-    $(LOCAL_DIR)/rr_tbelteskt.mk
+    $(LOCAL_DIR)/lineage_tbelteskt.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_tbelteskt-user \
