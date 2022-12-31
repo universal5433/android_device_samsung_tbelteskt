@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tbelteskt.mk
+    $(LOCAL_DIR)/aosp_tbelteskt.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_tbelteskt-user \
-    lineage_tbelteskt-userdebug \
-    lineage_tbelteskt-eng
+    aosp_tbelteskt-user \
+    aosp_tbelteskt-userdebug \
+    aosp_tbelteskt-eng
